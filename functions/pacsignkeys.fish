@@ -1,4 +1,4 @@
-function pacmansignkeys -d "Allow user to sign keys"
+function pacsignkeys -d "Allow user to sign keys"
   for key in $argv;
     sudo pacman-key --recv-keys $key
     sudo pacman-key --lsign-key $key

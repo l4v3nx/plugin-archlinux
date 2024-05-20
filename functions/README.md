@@ -1,49 +1,49 @@
 
-# pacman functions #
+# yay functions #
 
-* pacin
+* yain
 Install specific package(s) from the repositories
 
-* pacins
+* yains
 Install specific package not from the repositories but from a file
 
-* pacre
+* yare
 Remove the specified package(s), retaining its configuration(s) and required dependencies
 
-* pacrem
+* yarem
 Remove the specified package(s), its configuration(s) and unneeded dependencies
 
-* pacrep
+* yarep
 Display information about a given package in the repositories
 
-* pacreps
+* yareps
 Search for package(s) in the repositories
 
-* pacloc
+* yaloc
 Display information about a given package in the local database
 
-* paclocs
+* yalocs
 Search for package(s) in the local database
 
-* pacupd
+* yaupd
 Update and refresh the local package and ABS databases against repositories
 
-* pacinsd
+* yainsd
 Install given package(s) as dependencies of another package
 
-* pacmir
-Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
+* yamir
+Force refresh of all package lists after updating /etc/yay.d/mirrorlist
 
-* paclist
+* yalist
 List all installed packages with a short description - Source
 
-* paclsorphans
+* yalsorphans
 List all orphaned packages
 
-* pacrmorphans
+* yarmorphans
 Delete all orphaned packages
 
-* pacdisowned | less +F
+* yadisowned | less +F
 List all disowned files in your system
 
 

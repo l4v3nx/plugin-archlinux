@@ -1,4 +1,4 @@
-function pacdisowned -d "Display list of disowned files"
+function yadisowned -d "Display list of disowned files"
   if test -d "$TMPDIR"
     set tmp $TMPDIR
   else
@@ -9,7 +9,7 @@ function pacdisowned -d "Display list of disowned files"
   set -l fs "$dir/fs"
   set -l db "$dir/db"
 
-  pacman -Qlq | sort -u > "$db"
+  yay -Qlq | sort -u > "$db"
 
   find /bin /etc /lib /sbin /usr ! -name lost+found \
          \( -type d -printf '%p/\n' -o -print \) | sort > "$fs"
