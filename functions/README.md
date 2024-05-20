@@ -4,7 +4,7 @@
 * yain
 Install specific package(s) from the repositories
 
-* yains
+* yainloc
 Install specific package not from the repositories but from a file
 
 * yare
@@ -25,22 +25,22 @@ Display information about a given package in the local database
 * yalocs
 Search for package(s) in the local database
 
-* yaupd
+* yaupg
 Update and refresh the local package and ABS databases against repositories
 
-* yainsd
+* yaind
 Install given package(s) as dependencies of another package
 
 * yamir
-Force refresh of all package lists after updating /etc/yay.d/mirrorlist
+Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
 
 * yalist
 List all installed packages with a short description - Source
 
-* yalsorphans
+* yalsorph
 List all orphaned packages
 
-* yarmorphans
+* yarmorph
 Delete all orphaned packages
 
 * yadisowned | less +F
